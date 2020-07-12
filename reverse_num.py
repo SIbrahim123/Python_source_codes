@@ -1,11 +1,13 @@
 #This code aims at reversing some specific digit entered by the user.
 
+#Function takes two digit
 def two(num):
     num0 = int(num)
     num2 = num0 % 10
     num1 = int(num0 / 10)
     print(f'The reversed form of {num} is {num2}{num1}')
-
+    
+#function takes three digits
 def three(num):
     num0 = int(num)
     num3 = num0 % 10
@@ -21,6 +23,7 @@ def four(num):
     num1 = int(num0 / 1000)
     print(f'The reversed form of {num0} is {num4}{num3}{num2}{num1}')
 
+#The block that takes control
 while True: 
     num = input("Enter the number to be reversed: ")
     if len(num) == 2:
