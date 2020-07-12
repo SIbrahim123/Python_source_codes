@@ -1,3 +1,5 @@
+#This code aims at reversing some specific digit entered by the user.
+
 def two(num):
     num0 = int(num)
     num2 = num0 % 10
