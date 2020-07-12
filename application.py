@@ -41,3 +41,6 @@ And the fouth one:
 {lis[0: r3]}
 """)
 
+#This block displays the current time on your computer.
+import datetime as dt
+print(dt.datetime.today())
