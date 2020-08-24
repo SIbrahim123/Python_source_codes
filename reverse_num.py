@@ -22,7 +22,8 @@ def four(num):
     num2 = int((num0  % 1000) / 100)
     num1 = int(num0 / 1000)
     print(f'The reversed form of {num0} is {num4}{num3}{num2}{num1}')
-
+    
+#...and some other fumctions to be added pretty soon.
 #The block that takes control
 while True: 
     num = input("Enter the number to be reversed: ")
